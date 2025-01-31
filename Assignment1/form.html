@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AltSchool SignUp Form</title>
+    <link rel="stylesheet" href="css/index.css">
+     <link rel="stylesheet" href="css/form.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <header class="navigation-header">
+        <h1>Altschool Application Form</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home |</a></li>
+                <li><a href="./Assignment1/form.html">Application form |</a></li>
+                <li><a href="./Assignment2/table.html">Courses |</a></li>
+                <li><a href="./Assignment2/media.html">Media  |</a></li>
+                <li><a href="ass4.html">Ass4</a></li>
+            </ul>
+        </nav>
+    </header>
+     <p class="SignIn">Already an AltSchooler? <a>Sign In!</a></p>
+    <main class="form-page">
+      <section class="image-section">
+        <img
+          src="assets/images/image.png"
+          alt="AltSchool Image"
+          style="width: 100%; max-width: 500px"
+        />
+        <h2 class="big-text">Learn highly sought after skills without hassle.</h2>
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-twitter icons"></i></a>
+
+          <a href="#"><i class="fa fa-instagram icons"></i></a>
+
+          <a href="#"><i class="fa fa-facebook icons"></i></a>
+
+          <a href="#"><i class="fa fa-linkedin icons"></i></a>
+        </div>
+        <br>
+        <p class="bottom-text">
+          Tel: 0800ALTSCHOOL <br />
+          &copy;2024 AltSchool Africa. All rights reserved.
+        </p>
+      </section>
+
+      <section class="form-sec">
+          <h2>Signup</h2>
+          <p class="light-text">Take the next steps to apply at AltSchool Africa</p>
+          <form>
+            <div class="full-form">
+              <div class="half-form">
+                <label for="first-name">First Name</label><br/>
+                <input
+                    type="text"
+                    id="first-name"
+                    name="first-name"
+                    placeholder="Enter first name"
+                    />
+              </div>
+
+              <div class="half-form">
+                <label for="last-name">Last Name</label>
+                <input
+                    type="text"
+                    id="last-name"
+                    name="last-name"
+                    placeholder="Enter last name"
+                  />
+              </div>
+            </div>
+
+            <div class="full-form">
+              <div class="half-form">
+                <label for="gender">Gender</label><br/>
+                <select id="gender" name="gender">
+                  <option>Select gender</option>
+                  <option>Male</option>
+                  <option>Female</option>
+                </select>
+              </div>
+
+              <div class="half-form">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" />
+              </div>
+            </div>
+
+            <div class="full-form">
+              <div class="half-form">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email address"
+                />
+              </div>
+
+              <div class="half-form">
+                <label for="phone">Phone Number</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="08154387000"
+                />
+              </div>
+            </div>
+
+            <div class="full-form">
+              <div class="half-form">
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                  <option value="Select">Select your country</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="UK">UK</option>
+                </select> 
+              </div>
+
+              <div class="half-form">
+                <label for="city">State/City of Residence</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="Enter your state of residence"
+                />
+              </div>
+            </div>
+            
+            <div>
+              <label for="referral">How did you hear about us?</label>
+              <br/>
+              <select id="referral" name="referral">
+                <option>Select channel</option>
+                <option>Twitter</option>
+                <option>Facebook</option>
+                <option>LinkedIn</option>
+                <option>YouTube</option>
+                <option>Friend</option>
+                <option>WhatsApp</option>
+                <option>Instagram</option>
+                <option>Billboard</option>
+                <option>Sales Officer</option>
+                <option>Others</option>
+              </select>
+            </div>
+             
+            <div class="full-form">
+               <div class="half-form">
+                <label for="password">Password</label>
+                <br/>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  placeholder="Enter Password"
+                />
+               </div>
+               <div class="half-form">
+                <label for="password"> Confirm Password</label>
+                <br/>
+                <input
+                  type="password"
+                  id="confirmPassword"
+                  name="password"
+                  placeholder="Enter password again"
+                />
+              </div>
+            </div>  
+            
+            <p class="footer-text">By clicking continue, I agree to  <span>Terms of Use</span> and acknowledge that I have read the  <span>Privacy Policy</span>.</p>
+
+            <button class="submit">Submit <span>&#8594;</span></button>
+
+            
+
+            
+
+            
+
+            
+      </section>
+    </main> 
+  </body>
+</html>
