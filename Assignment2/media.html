@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Media</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navigation-header">
+        <h1>Responsive Media</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home |</a></li>
+                <li><a href="./Assignment1/form.html">Application form |</a></li>
+                <li><a href="./Assignment2/table.html">Courses |</a></li>
+                <li><a href="./Assignment2/media.html">Media  |</a></li>
+                <li><a href="ass4.html">Ass4</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="media-body">
+        
+        <h2>Image</h2>
+        <picture>
+            <source srcset="Assets/images/Image-1.jpg" media="(max-width: 600px)" class="image">
+            <img src="./Assets/images/Image-1.jpg" alt="Alt Text"/>
+            <source srcset="assets/images/Image-1.jpeg" media="(max-width: 1200px)" class="image">
+            <source srcset="assets/images/Image-1.jpeg" class="image">
+            <img src="assets/images/default.JPG" alt="IMAGE" class="image">
+        </picture>
+
+        <h2>Video</h2>
+        <video controls> 
+            <source src="assets/videos/2887463-sd_640_360_25fps.mp4" type="video/mp4" media="(max-width: 600px)">
+            <source src="assets/videos/5074-182666828_small.mp4" type="video/mp4" media="(max-width: 1200px)">
+            <source src="assets/videos/3129957-uhd_3840_2160_25fps.mp4" type="video/mp4">            
+            Your browser does not support the video tag.
+        </video>
+
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="assets/audio/digital-technology-abstract-corporate-141944.mp3" type="audio/mp3" media="(max-width: 600px)">
+            <source src="assets/audio/inspiring-future-technology-199982.mp3" type="audio/mp3" media="(max-width: 1200px)">
+            <source src="assets/audio/time-technology-11257.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </main>
+</body>
+</html>
